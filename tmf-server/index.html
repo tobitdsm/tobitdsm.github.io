@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/tobitdsm/default/style.css">
+    <link rel="icon" href="https://cdn2.steamgriddb.com/icon/907ee68e550f498a93ec82d228135c00/32/256x256.png">
+    <script src="/tobitdsm/default/script.js"></script>
+    <script src="server.js"></script>
+    <title>¦ζҼųऽ¦ Server Controls</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+</head>
+
+<body>
+<div class="tab">
+    <div class="header">
+        <div id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <a href="/tobitdsm/">Home</a>
+            <a href="/tobitdsm/tmf-server/">TMF Server Controls</a>
+        </div>
+        <span class="header-left" onclick="openMenu()"><img src="/tobitdsm/resources/images/hamburger.png" class="hamburger" alt="hamburger"></span>
+        <div class="logo">
+            <a href="/tobitdsm/">
+                <img src="https://avatars.githubusercontent.com/u/143805223?v=4" alt="logo">
+                <h1>tobitdsm</h1>
+            </a>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1 style="text-align: center">This project is abandoned.<br><br></h1>
+        <div class="section" id="console-control">
+            <div id="console"><code>> _</code></div>
+            <div id="control"><div>
+                <h1>Server status:❔<br class="only-mobile">unknown</h1>
+                <button onclick="server_start()">Start</button>
+                <button onclick="server_stop()">Stop</button><br><br>
+                <button onclick="server_restart()">Restart</button>
+                <button onclick="server_refresh()">Refresh</button>
+            </div></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>©tobitdsm 2025</p>
+        <div class="footer-links">
+            <a href="https://www.github.com/tobitdsm/" target="_blank"><img src="/tobitdsm/resources/images/github.png" alt="github"></a>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
