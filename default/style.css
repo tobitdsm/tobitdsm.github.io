@@ -98,11 +98,9 @@ body {
 
 .sectionhome {
     text-align: center;
-    width: 40%;
     background-color: #383838;
     border-radius: 10px;
     transition: 0.3s;
-    margin-top: 50px;
 }
 
 .sectionhome:hover {
@@ -110,10 +108,14 @@ body {
 }
 
 .sectionimg {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
     padding-top: 10%;
+    width: 100%;
+}
+
+.sectionimg img {
+    border-radius: 10px;
     width: 50%;
+    aspect-ratio: 1;
 }
 
 .sectionp {

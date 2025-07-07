@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="../default/style.css">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/143805223?v=4">
+    <link rel="icon" href="https://raw.githubusercontent.com/tobitdsm/kards/refs/heads/main/lib/assets/icon.png">
     <script src="../default/script.js"></script>
     <title>Kards | tobitdsm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 </head>
 
 <body>
-<div class="tab">
-    <div class="header">
-        <div id="menu">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
-            <a href="../">Home</a>
+    <div class="tab">
+        <div class="header">
+            <div id="menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+                <a href="../">Home</a>
+            </div>
+            <span class="header-left" onclick="openMenu()"><img src="../resources/images/hamburger.png"
+                    class="hamburger" alt="hamburger"></span>
+            <div class="logo">
+                <a href="../">
+                    <img src="https://avatars.githubusercontent.com/u/143805223?v=4" alt="logo">
+                    <h1>tobitdsm</h1>
+                </a>
+            </div>
         </div>
-        <span class="header-left" onclick="openMenu()"><img src="../resources/images/hamburger.png" class="hamburger" alt="hamburger"></span>
-        <div class="logo">
-            <a href="../">
-                <img src="https://avatars.githubusercontent.com/u/143805223?v=4" alt="logo">
-                <h1>tobitdsm</h1>
-            </a>
-        </div>
-    </div>
 
-    <div class="main">
-        <div class="section">
+        <div class="main">
+            <img src="https://raw.githubusercontent.com/tobitdsm/kards/refs/heads/main/lib/assets/icon.png"
+                style="border-radius: 30%; float: left; position: absolute; height: 150px; margin-left: 1.5%">
+            <div
+                style="border-radius: 30%; float: right; position: absolute; height: 150px; width: 150px; margin-left: 67.5%; overflow: hidden;">
+                <img src="https://raw.githubusercontent.com/tobitdsm/kards/refs/heads/main/lib/assets/logo.jpg"
+                    style="position: absolute; border: 5px solid red; margin-left: -103%; margin-top: -80%; height: 250%;">
+            </div>
+            <h1 style="text-align: center">Kards</h1>
+            <h2 style="text-align: center;">All your loyalty cards in one place.<br><br></h2>
+            <p style="text-align: center;">Kards is a simple and lightweight app to scan and store bar- and qr-codes
+                of
+                loyalty cards.</p>
+            <div class="section"
+                style="display: grid; grid-template-columns: 15% 15% 15% 15% 15%; column-gap: 6%; margin-top: 50px;">
+                <img src="images/home.png" width="100%">
+                <img src="images/sort.png" width="100%">
+                <img src="images/scan.png" width="100%">
+                <img src="images/name.png" width="100%">
+                <img src="images/show.png" width="100%">
+            </div>
+            <h2 onclick="window.open('https:\/\/www.github.com/tobitdsm/kards/releases/latest')"
+                style="cursor: pointer; color: #f59a9a; text-decoration: underline; text-align: center; margin-top: 50px;">
+                Installation</h2>
+        </div>
+        <div class="footer">
+            <p>©tobitdsm 2025</p>
+            <div class="footer-links">
+                <a href="https://www.github.com/tobitdsm/" target="_blank"><img src="../resources/images/github.png"
+                        alt="github"></a>
+            </div>
         </div>
     </div>
-    <div class="footer">
-        <p>©tobitdsm 2025</p>
-        <div class="footer-links">
-            <a href="https://www.github.com/tobitdsm/" target="_blank"><img src="../resources/images/github.png" alt="github"></a>
-        </div>
-    </div>
-</div>
 </body>
 
 </html>
